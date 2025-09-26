@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<forms>
+	<form id='SCBirth' type='Birth' title='Scottish Birth Record'>
+		<heading>
+			<_attribute>County</_attribute>
+		</heading>
+		<heading>
+			<_attribute>District</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Entry Number</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Registration Date</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Registration Place</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Registrar</_attribute>
+		</heading>
+		<section role='Primary' type='person' title='Birth'>
+			<column>
+				<_attribute>Name</_attribute>
+				<_longname>Name and Surname</_longname>
+			</column>
+			<column>
+				<_attribute>Time</_attribute>
+				<_longname>Time of Birth</_longname>
+			</column>
+			<column>
+				<_attribute>Sex</_attribute>
+				<_longname>Sex</_longname>
+			</column>
+		</section>
+		<section role='Father' type='person' title='Father'>
+			<column>
+				<_attribute>Name</_attribute>
+				<_longname>Name and Surname</_longname>
+			</column>
+			<column>
+				<_attribute>Rank/Profession</_attribute>
+				<_longname>Rank or Profession</_longname>
+			</column>
+		</section>
+		<section role='Mother' type='person' title='Mother'>
+			<column>
+				<_attribute>Name</_attribute>
+				<_longname>Name and Surname</_longname>
+			</column>
+			<column>
+				<_attribute>Maiden Name</_attribute>
+				<_longname>Maiden Surname</_longname>
+			</column>
+		</section>
+		<section role='Informant' type='person' title='Informant'>
+			<column>
+				<_attribute>Signature</_attribute>
+				<_longname>Signature</_longname>
+			</column>
+			<column>
+				<_attribute>Qualification</_attribute>
+				<_longname>Qualification</_longname>
+			</column>
+			<column>
+				<_attribute>Residence</_attribute>
+				<_longname>Residence</_longname>
+			</column>
+		</section>
+	</form>
+	<form id='SCMarriage' type='Marriage' title='Scottish Marriage Record'>
+		<heading>
+			<_attribute>County</_attribute>
+		</heading>
+		<heading>
+			<_attribute>District</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Entry Number</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Banns</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Registration Date</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Registration Place</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Registrar</_attribute>
+		</heading>
+		<section role='Family' type='family' title='Groom/Bride'>
+			<column>
+				<_attribute>Signature</_attribute>
+				<_longname>Signature</_longname>
+			</column>
+			<column>
+				<_attribute>Rank/Profession</_attribute>
+				<_longname>Rank or Profession</_longname>
+			</column>
+			<column>
+				<_attribute>Condition</_attribute>
+				<_longname>whether Single or Widowed</_longname>
+			</column>
+			<column>
+				<_attribute>Age</_attribute>
+				<_longname>Age</_longname>
+			</column>
+			<column>
+				<_attribute>Usual Residence</_attribute>
+				<_longname>Usual Residence</_longname>
+			</column>
+		</section>
+		<section role='Groom Father' type='person' title='Groom&apos;s Father'>
+			<column>
+				<_attribute>Name</_attribute>
+				<_longname>Name and Surname</_longname>
+			</column>
+			<column>
+				<_attribute>Rank/Profession</_attribute>
+				<_longname>Rank or Profession</_longname>
+			</column>
+			<column>
+				<_attribute>Deceased?</_attribute>
+				<_longname>Deceased?</_longname>
+			</column>
+		</section>
+		<section role='Groom Mother' type='person' title='Groom&apos;s Mother'>
+			<column>
+				<_attribute>Name</_attribute>
+				<_longname>Name and Surname</_longname>
+			</column>
+			<column>
+				<_attribute>Maiden Name</_attribute>
+				<_longname>Maiden Name</_longname>
+			</column>
+			<column>
+				<_attribute>Deceased?</_attribute>
+				<_longname>Deceased?</_longname>
+			</column>
+		</section>
+		<section role='Bride Father' type='person' title='Bride&apos;s Father'>
+			<column>
+				<_attribute>Name</_attribute>
+				<_longname>Name and Surname</_longname>
+			</column>
+			<column>
+				<_attribute>Rank/Profession</_attribute>
+				<_longname>Rank or Profession</_longname>
+			</column>
+			<column>
+				<_attribute>Deceased?</_attribute>
+				<_longname>Deceased?</_longname>
+			</column>
+		</section>
+		<section role='Bride Mother' type='person' title='Bride&apos;s Mother'>
+			<column>
+				<_attribute>Name</_attribute>
+				<_longname>Name and Surname</_longname>
+			</column>
+			<column>
+				<_attribute>Maiden Name</_attribute>
+				<_longname>Maiden Name</_longname>
+			</column>
+			<column>
+				<_attribute>Deceased?</_attribute>
+				<_longname>Deceased?</_longname>
+			</column>
+		</section>
+		<section role='Celebrant' type='person' title='Officiating Minister'>
+			<column>
+				<_attribute>Signature</_attribute>
+				<_longname>Signature</_longname>
+			</column>
+		</section>
+		<section role='Witness' type='multi' title='Witnesses'>
+			<column>
+				<_attribute>Signature</_attribute>
+				<_longname>Signature</_longname>
+			</column>
+		</section>
+	</form>
+</forms>
